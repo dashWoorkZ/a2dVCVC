@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/a2dvc.css">	
+        <script src="js/clock.js" defer></script>
+        <title>Digital Analog Clock</title>
+    </head>
+    <body>
+        
+        <section id="clockFrame">
+			<section id="clockFaces">
+                <section id="clocks">
+                    <div id="analog__clock">
+                        <canvas id="canvas" width="400" height="400"></canvas>
+                    </div>
+                    <div id="digital__clock">
+                        <h3 id="text__time"></h3>
+                    </div>
+                </section>
+            </section>
+            <section id="changeClock">
+				<div id="header">
+					<h2 id="title">Clock Features</h2>
+					<div class="form__group--btn">
+						<button id="save__btn" type="submit">Save Image</button>
+					</div>
+				</div>				
+                <form id="clockFeatures">
+                    <section id='features'>
+                        <div class="form__group">
+                            <label for="face">Clock Face</label>
+                            <input type='color' name="face" id="face" value="#f5f5dc" />
+                        </div>
+                        <div class="form__group">
+                            <label for="borderC">Border</label>
+                            <input type='color' name="borderC" id="borderC" value="#0000ff" />
+                        </div>
+                        <div class="form__group">
+                            <label for="hourL">Hour Hand</label>
+                            <input type='color' name="hourL" id="hourL" value="#ffa600" />
+                        </div>
+                        <div class="form__group">
+                            <label for="lHand">Minute Hand</label>
+                            <input type='color' name="lHand" id="lHand" value="#663399" />
+                        </div>
+                        <div class="form__group">
+                            <label for="sHand">Second Hand</label>
+                            <input type='color' name="sHand" id="sHand" value="#1f8fff" />
+                        </div>
+                        <div class="form__group">
+                            <label for="swivel">Swivel</label>
+                            <input type='color' name="swivel" id="swivel" value="#1f8fff" />
+                        </div>
+                                                <div class="form__group">
+                            <label for="minuteInd">Minute Indicator</label>
+                            <input type='color' name="minuteInd" id="minuteInd" value="#1f8fff" />
+                        </div>
+                        <div class="form__group">
+                            <label for="hourInd">Hour Indicator</label>
+                            <input type='color' name="hourInd" id="hourInd" value="#1f8fff" />
+                        </div>
+                    </section>
+                </form>
+            </section>
+                <div class="btn__box">						
+                    <button id="changeColourBtn" class="features__toggle"></button>
+                    <button id="startClock">Start Clock</button> 
+                    <button id="clock__face" class="features__toggle">Digital Clock Face</button>					                        
+                </div>    
+        </section>
+        
+        
+    </body>
+</html>
