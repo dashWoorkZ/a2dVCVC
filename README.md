@@ -7,9 +7,9 @@ Author: Lord :Dash: La Londe - dashWoorkZ Sovereign Society
 
 I have made some aesthetic enhancements and added the digital clock.
 
-<img src="imgs/start_clock.png">
-<img src="imgs/analog_clock.png">
-<img src="imgs/digital_clock.png">
+<img src="img/start_clock.png">
+<img src="img/analog_clock.png">
+<img src="img/digital_clock.png">
 
 
 ### MIT License
